@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+
+}
+.calculater_box{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    /* border:1px solid #4a4452; */
+    border-radius: 15px ;
+    box-shadow: 0px 3px 15px rgb(113, 115, 119,0.5);
+}
+.containter_div{
+    width: 100%;
+    height: 100%;
+
+    
+    /* border: 2px solid pink; */
+    border-radius: 5px;
+}
+/* for input section  */
+.user_input{
+    padding: 2%;
+}
+input{
+    
+    width:100%;
+    height:10vh;
+    font-size: 45px;
+    text-align: right;
+    cursor: pointer;
+    background: linear-gradient(45deg,#0a0a0a,#4a4452);
+
+}
+ 
+
+/* <----------------------> */
+
+
+/* for buttons  */
+button{
+    width: 20.6%;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+    /* background: linear-gradient(45deg,#0a0a0a,#4a4452); */
+    
+}
+/* <----------------------> */
+/* for operarter */
+ .operater{
+    background-color: #fb7c14;
+
+ }
+ .equalBtn{
+    background-color: #fb7c14;
+ }
+ .seven {
+     background: linear-gradient(45deg,#0a0a0a,#4a4452);
+ }
+/* <--------------> */ 
